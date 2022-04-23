@@ -1,0 +1,1 @@
+pandoc samplepaper.tex  --filter pandoc-crossref --citeproc --csl springer-lecture-notes-in-computer-science-alphabetical  --bibliography=reference.bib --number-sections -M autoEqnLabels -M tableEqns -M reference-section-title=Reference -t native_numbering -o output.docx
